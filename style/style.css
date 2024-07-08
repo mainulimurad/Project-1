@@ -17,12 +17,12 @@ body {
 	border-radius: 10px;
 	min-height: 800px;
 	margin-top: 20px;
-    background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.4);
 	background-image: url("../Assets/images/Banner\ Image.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-    background-blend-mode: overlay;
+	background-blend-mode: overlay;
 }
 
 .banner-content {
@@ -39,9 +39,9 @@ h1 {
 }
 
 .banner-content p {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 52px;
 }
 
 .banner-content h1 {
@@ -52,45 +52,191 @@ h1 {
 
 /* second section style starts here */
 
-.second-section-container{
-    max-width: 802px;
-    height: 806px;
-    margin: 0 auto;
-    margin-top: 90px;
-
+.second-section-container {
+	max-width: 802px;
+	height: 806px;
+	margin: 0 auto;
+	margin-top: 90px;
 }
 
-.second-section-content{
+.second-section-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.second-section-content h1 {
+	color: rgb(255, 0, 0);
+	font-size: 88px;
+	font-weight: 700;
+}
+
+.second-section-content p {
+	color: rgb(255, 0, 0);
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.second-section-content h3 {
+	color: rgb(7, 2, 17);
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.image-container {
+	width: 802px;
+	height: 500px;
+}
+
+.image-container img {
+	width: 100%;
+	height: 100%;
+}
+
+/* mid night section style */
+
+.mid-night-party-container {
+	max-width: 1320px;
+	height: 600px;
+	margin: 0 auto;
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.8);
+	background-image: url(../Assets/images/Vectorrr.png);
+	border-radius: 10px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+	margin-bottom: 100px;
+}
+
+.leftside-content {
+	width: 50%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px;
+}
+
+.leftside-content h1 {
+	color: #fff;
+	font-size: 64px;
+	font-weight: 900;
+	font-family: "Merriweather", serif;
+}
+
+.leftside-content p {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.midnight-button {
+	color: rgb(255, 255, 255);
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.rightside-content {
+	width: 50%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rightside-content img {
+	width: 349.16px;
+	height: 464.65px;
+}
+
+/* holiday section design start here */
+.holiday-section-container {
+	width: 1320px;
+	height: 987px;
+	border: 2px solid red;
+	margin: 0 auto;
+	position: relative;
+}
+
+.hoilday-text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 1068px;
+	height: 260px;
+	margin: 0 auto;
+}
+
+.hoilday-text-container h5 {
+	color: rgb(7, 2, 17);
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+}
+
+.hoilday-text-container h2 {
+	font-family: Merriweather;
+	font-size: 72px;
+	font-weight: 900;
+	line-height: 91px;
+	letter-spacing: 0%;
+	text-align: center;
+}
+
+.hoilday-text-container h2 .color {
+	color: rgb(255, 0, 0);
+}
+
+.hoilday-text-container p {
+	color: rgba(7, 2, 17, 0.6);
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 32px;
+	letter-spacing: 0%;
+	text-align: center;
+}
+
+.solid-color {
+	width: 1320px;
+	height: 229px;
+	background-color: red;
+	position: absolute;
+	top: 75%;
+}
+
+.giftbox {
+	width: 674.82px;
+	height: 577.96px;
+    position: relative;
+    z-index: 1;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+
 }
 
-.second-section-content h1{
-    color: rgb(255, 0, 0);
-    font-size: 88px;
-    font-weight: 700;
+.girl-container{
+    width: 429px;
+    height: 433px;
+    position: relative;
+    left: 29%;
+    top: 5%;
 }
 
-.second-section-content p{
-    color: rgb(255, 0, 0);
-    font-size: 24px;
-    font-weight: 500;
+.girl-container img{
+
 }
 
-.second-section-content h3{
-    color: rgb(7, 2, 17);
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.image-container{
-    width: 802px;
-    height: 500px;
-}
-
-.image-container img{
-    width: 100%;
-    height: 100%;
+.discount{
+    position: absolute;
+    bottom: 40%;
+    left: 55%;
+    z-index: 1;
 }
